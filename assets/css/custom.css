@@ -1,0 +1,60 @@
+/*
+Custom Css
+*/
+@charset "UTF-8";
+@font-face { font-family: Quicksand-Regular; src: url("../fonts/Quicksand-Regular.ttf"); } 
+@font-face { font-family: Quicksand-SemiBold; src: url("../fonts/Quicksand-SemiBold.ttf"); } 
+
+/* #a1c09dd9 #c5b484d9 */
+.title {
+    font-family: Quicksand-SemiBold !important;
+    color: #a1c09dd9 !important;
+    text-decoration: none;
+    font-size: 1.4rem !important;
+    margin-top: 10px;
+}
+
+.logo {
+    width: 90px;
+}
+
+.menu-item {
+    color: #c5b484d9 !important;
+    font-family: Quicksand-SemiBold;
+}
+
+.contact-info-container {
+    & > i {
+    /* Styles for the direct child */
+    color: blue;
+    }
+    & a {
+    /* Styles for any descendant, including direct children */
+    font-size: 18px;
+    }
+}
+
+#slider1 {
+    width: 60%;
+    margin-left: 20%;
+    height: auto;
+    align-self: center;
+}
+
+h1 {
+    font-family: Quicksand-SemiBold !important;
+    margin-bottom: 20px !important;
+    color: #a1c09dd9;
+}
+
+p {
+    font-family: Quicksand-Regular !important;
+    color: gray; 
+}
+
+.category {
+    width: 100%;
+    height: auto;
+    border: 2px solid #c5b484d9;
+    border-radius: 200px;
+}
