@@ -41,10 +41,26 @@ Custom Css
     align-self: center;
 }
 
-h1 {
+h1, h2, h3, h4 {
     font-family: Quicksand-SemiBold !important;
     margin-bottom: 20px !important;
+}
+
+.main-title {
+    color: #c5b484d9;
+}
+
+.slider-title {
     color: #a1c09dd9;
+}
+
+.menu-item {
+    font-family: Quicksand-SemiBold !important;
+}
+
+li, a {
+    font-family: Quicksand-Regular !important;
+    color: gray !important;
 }
 
 p {
@@ -53,8 +69,65 @@ p {
 }
 
 .category {
-    width: 100%;
+    width: 150px;
     height: auto;
     border: 2px solid #c5b484d9;
     border-radius: 200px;
+}
+
+.category-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.category-header {
+    color: #a1c09dd9;
+}
+
+.category-description {
+    font-size: 15px !important;
+    margin-top: 10px;
+}
+
+.category-name {
+    color: #a1c09dd9;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 15px !important;
+}
+
+.stores-images {
+    width: 200px;
+    height: auto;
+}
+
+.footer-header {
+    color: #c5b484d9;
+}
+
+.social-network-icon {
+    color: #a1c09dd9;
+}
+
+.icon-border {
+    border-color: #a1c09dd9 !important;
+}
+
+.company-icons {
+    color: #a1c09dd9 !important;
+}
+
+.how-is-works {
+    background-color: #F7F7F7;
+}
+
+.carousel {
+    background-color: #F7F7F7 !important;
+}
+
+.step-images {
+    width: 200px;
+    height: auto;
+    width: 60%;
+    margin-left: 20%;
 }
