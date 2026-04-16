@@ -77,6 +77,15 @@ p {
     background-color: white;
 }
 
+.categoryMarquee {
+    width: 80px;
+    height: auto;
+    border: 2px solid #c5b484d9;
+    border-radius: 40px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
 .category-container {
     text-align: center;
     margin-bottom: 30px;
@@ -139,4 +148,35 @@ p {
     height: auto;
     width: 60%;
     margin-left: 20%;
+}
+
+.marquee {
+    width: 100%;
+	line-height: 50px;
+    white-space: nowrap;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.marquee div {
+    display: inline-block;
+    padding-left: 100%;
+    animation: marquee 15s linear infinite;
+}
+.marquee div img {
+    margin-left: 15px
+}
+@keyframes marquee {
+    0%   { transform: translate(0, 0); }
+    100% { transform: translate(-100%, 0); }
+}
+
+.subtitle {
+    font-family: Quicksand-SemiBold !important;
+    color: #a1c09dd9;
+    font-size: 25px;
+    margin-top: 10PX;
+}
+
+li {
+    margin-left: 40px;
 }
