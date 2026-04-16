@@ -13,7 +13,9 @@ Custom Css
     font-size: 1.4rem !important;
     margin-top: 10px;
 }
-
+h5 {
+    font-family: Quicksand-SemiBold !important;
+}
 .logo {
     width: 90px;
 }
@@ -177,6 +179,14 @@ p {
     margin-top: 10PX;
 }
 
-li {
+.terms-conditions li {
     margin-left: 40px;
+}
+
+.subtitlePlans {
+    font-size: 20px !important;
+    font-family: Quicksand-SemiBold !important;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: 8px;
 }
